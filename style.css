@@ -348,3 +348,268 @@ section{
         width: 300px;
     }
 }
+
+@media screen and (max-width: 1080px) {
+    .header section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        margin-top: 1rem;
+    }
+    .navbar a {
+        margin: 0.5rem;
+    }
+    .icons img {
+        margin: 0.5rem;
+    }
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+    }
+    .home-container section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .content {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .content h3 {
+        font-size: 3rem;
+    }
+    .content p {
+        font-size: 1.3rem;
+    }
+    .about .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about .row .content {
+        padding: 1rem;
+        text-align: center;
+    }
+    .about .row .content h3 {
+        font-size: 2rem;
+    }
+    .about .row .content p {
+        font-size: 1.2rem;
+    }
+    .menu .box-container .box {
+        padding: 2rem;
+    }
+    .menu .box-container .box img {
+        height: 8rem;
+    }
+    .menu .box-container .box h3 {
+        font-size: 1.5rem;
+    }
+    .menu .box-container .box .price {
+        font-size: 1.8rem;
+    }
+    .review .box-container .box {
+        padding: 1rem;
+    }
+    .review .box-container .box h3 {
+        font-size: 1.5rem;
+    }
+    .review .box-container .box p {
+        font-size: 1rem;
+    }
+    .footer .share {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .share img {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .img-fotter {
+        font-size: 1rem;
+    }
+}
+
+/* Regras de Mídia para Responsividade */
+
+/* Para iPhone 12 (1170px de largura) */
+@media screen and (max-width: 1170px) {
+    .header section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        margin-top: 1rem;
+    }
+    .navbar a {
+        margin: 0.5rem;
+    }
+    .icons img {
+        margin: 0.5rem;
+    }
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+    }
+    .home-container section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .content {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .content h3 {
+        font-size: 3rem;
+    }
+    .content p {
+        font-size: 1.3rem;
+    }
+    .about .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about .row .content {
+        padding: 1rem;
+        text-align: center;
+    }
+    .about .row .content h3 {
+        font-size: 2rem;
+    }
+    .about .row .content p {
+        font-size: 1.2rem;
+    }
+    .menu .box-container .box {
+        padding: 2rem;
+    }
+    .menu .box-container .box img {
+        height: 8rem;
+    }
+    .menu .box-container .box h3 {
+        font-size: 1.5rem;
+    }
+    .menu .box-container .box .price {
+        font-size: 1.8rem;
+    }
+    .review .box-container .box {
+        padding: 1rem;
+    }
+    .review .box-container .box h3 {
+        font-size: 1.5rem;
+    }
+    .review .box-container .box p {
+        font-size: 1rem;
+    }
+    .footer .share {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .share img {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .img-fotter {
+        font-size: 1rem;
+    }
+}
+
+/* Regras de Mídia para Responsividade */
+
+/* Para dispositivos Xiaomi Poco */
+@media screen and (max-width: 1080px) {
+    .header section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        margin-top: 1rem;
+    }
+    .navbar a {
+        margin: 0.5rem;
+    }
+    .icons img {
+        margin: 0.5rem;
+    }
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+    }
+    .home-container section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .content {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .content h3 {
+        font-size: 3rem;
+    }
+    .content p {
+        font-size: 1.3rem;
+    }
+    .about .row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about .row .content {
+        padding: 1rem;
+        text-align: center;
+    }
+    .about .row .content h3 {
+        font-size: 2rem;
+    }
+    .about .row .content p {
+        font-size: 1.2rem;
+    }
+    .menu .box-container .box {
+        padding: 2rem;
+    }
+    .menu .box-container .box img {
+        height: 8rem;
+    }
+    .menu .box-container .box h3 {
+        font-size: 1.5rem;
+    }
+    .menu .box-container .box .price {
+        font-size: 1.8rem;
+    }
+    .review .box-container .box {
+        padding: 1rem;
+    }
+    .review .box-container .box h3 {
+        font-size: 1.5rem;
+    }
+    .review .box-container .box p {
+        font-size: 1rem;
+    }
+    .footer .share {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .share img {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .img-fotter {
+        font-size: 1rem;
+    }
+}
+
