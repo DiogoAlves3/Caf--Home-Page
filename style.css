@@ -278,6 +278,8 @@ section{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin: 400px auto;
+        margin-top: 300px;
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
@@ -339,5 +341,10 @@ section{
     }
     .img-fotter {
         font-size: 1rem;
+    }
+
+    .address{
+        height: 300px;
+        width: 300px;
     }
 }
